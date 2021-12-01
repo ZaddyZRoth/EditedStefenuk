@@ -69,7 +69,7 @@ local SilentAim = getgenv().SilentAim
 -- // Create circle
 local circle = Drawingnew("Circle")
 circle.Transparency = 1
-circle.Thickness = 2
+circle.Thickness = 1
 circle.Color = SilentAim.FOVColour
 circle.Filled = false
 SilentAim.FOVCircle = circle
